@@ -1,0 +1,38 @@
+services:
+  db_test:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: minibench_test
+      POSTGRES_PASSWORD: testpass
+      POSTGRES_DB: minibench_test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U minibench_test -d minibench_test"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://minibench_test:testpass@db_test:5432/minibench_test
+      UPLOAD_DIR: /tmp/test-uploads
+      MODEL_MODE: fake
+      MODEL_NAME: ""
+      MODEL_API_KEY: ""
+      REVIEWER_API_KEY: test-reviewer-key
+      WORKER_API_KEY: test-worker-key
+    depends_on:
+      db_test:
+        condition: service_healthy
+    command: >
+      sh -c "uv run alembic upgrade head &&
+             uv run pytest tests/ -v --tb=short"
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./migrations:/app/migrations
+      - ./alembic.ini:/app/alembic.ini
+      - ./pyproject.toml:/app/pyproject.toml

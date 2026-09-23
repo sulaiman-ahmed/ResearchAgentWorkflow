@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: minibench_test
+          POSTGRES_PASSWORD: testpass
+          POSTGRES_DB: minibench_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U minibench_test -d minibench_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      DATABASE_URL: postgresql+psycopg://minibench_test:testpass@localhost:5432/minibench_test
+      UPLOAD_DIR: /tmp/test-uploads
+      MODEL_MODE: fake
+      MODEL_NAME: ""
+      MODEL_API_KEY: ""
+      REVIEWER_API_KEY: test-reviewer-key
+      WORKER_API_KEY: test-worker-key
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.6.3"
+
+      - name: Install Python 3.12
+        run: uv python install 3.12
+
+      - name: Install dependencies (locked)
+        run: uv sync --locked
+
+      - name: Ruff lint
+        run: uv run ruff check .
+
+      - name: Ruff format check
+        run: uv run ruff format --check .
+
+      - name: Apply migrations
+        run: uv run alembic upgrade head
+
+      - name: Run tests
+        run: uv run pytest tests/ -v --tb=short
