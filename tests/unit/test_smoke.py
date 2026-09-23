@@ -14,6 +14,6 @@ def test_settings_model_mode_default() -> None:
 
 
 def test_health_route_registered() -> None:
-    routes = [r.path for r in app.routes]  # type: ignore[attr-defined]
-    assert "/health" in routes
-    assert "/ready" in routes
+    paths = [r.path for r in app.routes if hasattr(r, "path")]  # type: ignore[union-attr]
+    assert "/health" in paths
+    assert "/ready" in paths

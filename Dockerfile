@@ -12,10 +12,11 @@ COPY pyproject.toml uv.lock README.md ./
 # Install dependencies into the container's own environment (not a host .venv)
 RUN uv sync --locked --no-dev --no-install-project
 
-# Copy application source and migration files
+# Copy application source, migration files, and fixtures
 COPY src/ src/
 COPY migrations/ migrations/
 COPY alembic.ini ./
+COPY fixtures/ fixtures/
 
 # Install the project itself
 RUN uv sync --locked --no-dev

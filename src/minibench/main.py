@@ -1,10 +1,12 @@
 from fastapi import FastAPI
 from sqlalchemy import text
 
+from minibench.api.routes import router
 from minibench.db import AsyncSessionLocal
 from minibench.settings import settings
 
 app = FastAPI(title="minibench", version="0.1.0")
+app.include_router(router)
 
 
 @app.get("/health")
