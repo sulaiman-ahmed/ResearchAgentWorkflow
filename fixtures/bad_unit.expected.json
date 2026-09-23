@@ -1,0 +1,14 @@
+{
+  "status": "has_issues",
+  "record_count": 21,
+  "issues": [
+    {
+      "record_index": 20,
+      "field": "unit",
+      "kind": "unsupported_unit",
+      "value": "moles_per_furlong",
+      "message": "Unit 'moles_per_furlong' is not in the supported unit list"
+    }
+  ],
+  "valid_record_count": 20
+}

@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "record_count": 20,
+  "issues": [],
+  "rows": [
+    {
+      "sample_id": "SAMP_001",
+      "measurement_name": "binding_affinity",
+      "value": "11.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_002",
+      "measurement_name": "binding_affinity",
+      "value": "13.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_003",
+      "measurement_name": "binding_affinity",
+      "value": "14.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_004",
+      "measurement_name": "binding_affinity",
+      "value": "16.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_005",
+      "measurement_name": "binding_affinity",
+      "value": "17.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_006",
+      "measurement_name": "binding_affinity",
+      "value": "19.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_007",
+      "measurement_name": "binding_affinity",
+      "value": "20.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_008",
+      "measurement_name": "binding_affinity",
+      "value": "22.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_009",
+      "measurement_name": "binding_affinity",
+      "value": "23.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_010",
+      "measurement_name": "binding_affinity",
+      "value": "25.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_011",
+      "measurement_name": "binding_affinity",
+      "value": "26.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_012",
+      "measurement_name": "binding_affinity",
+      "value": "28.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_013",
+      "measurement_name": "binding_affinity",
+      "value": "29.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_014",
+      "measurement_name": "binding_affinity",
+      "value": "31.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_015",
+      "measurement_name": "binding_affinity",
+      "value": "32.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_016",
+      "measurement_name": "binding_affinity",
+      "value": "34.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_017",
+      "measurement_name": "binding_affinity",
+      "value": "35.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_018",
+      "measurement_name": "binding_affinity",
+      "value": "37.0",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_019",
+      "measurement_name": "binding_affinity",
+      "value": "38.5",
+      "unit": "nM"
+    },
+    {
+      "sample_id": "SAMP_020",
+      "measurement_name": "binding_affinity",
+      "value": "40.0",
+      "unit": "nM"
+    }
+  ]
+}

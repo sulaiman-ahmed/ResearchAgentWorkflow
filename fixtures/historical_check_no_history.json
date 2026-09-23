@@ -1,0 +1,21 @@
+{
+  "description": "New PROT_C binding experiment with no comparable history",
+  "new_experiment": {
+    "id": "exp-NEW-002",
+    "target_id": "PROT_C",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    }
+  },
+  "expected": {
+    "status": "no_history",
+    "comparable_experiment_ids": [],
+    "candidate_count": 0,
+    "failure_count": 0,
+    "failure_steps": [],
+    "abstained": true
+  }
+}

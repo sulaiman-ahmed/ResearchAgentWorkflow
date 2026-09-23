@@ -1,0 +1,12 @@
+{
+  "status": "parse_error",
+  "record_count": 0,
+  "issues": [
+    {
+      "record_index": null,
+      "field": null,
+      "kind": "parse_error",
+      "message": "File could not be parsed as valid CSV"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "New PROT_A binding experiment with comparable history",
+  "new_experiment": {
+    "id": "exp-NEW-001",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    }
+  },
+  "expected": {
+    "status": "has_history",
+    "comparable_experiment_ids": [
+      "exp-001",
+      "exp-003",
+      "exp-005"
+    ],
+    "candidate_count": 3,
+    "failure_count": 2,
+    "failure_steps": [
+      "reagent_preparation",
+      "instrument_calibration"
+    ],
+    "abstained": false
+  }
+}

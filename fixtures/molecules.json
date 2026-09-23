@@ -1,0 +1,69 @@
+[
+  {
+    "id": "mol-001",
+    "name": "SynthMol-Alpha",
+    "aliases": [
+      "SMA",
+      "compound-1"
+    ],
+    "target_id": "PROT_A",
+    "is_synthetic": true,
+    "properties": {
+      "mw": 342.4,
+      "solubility": "high"
+    }
+  },
+  {
+    "id": "mol-002",
+    "name": "SynthMol-Beta",
+    "aliases": [
+      "SMB"
+    ],
+    "target_id": "PROT_A",
+    "is_synthetic": true,
+    "properties": {
+      "mw": 418.2,
+      "solubility": "moderate"
+    }
+  },
+  {
+    "id": "mol-003",
+    "name": "SynthMol-Gamma",
+    "aliases": [
+      "SMG",
+      "compound-3"
+    ],
+    "target_id": "PROT_B",
+    "is_synthetic": true,
+    "properties": {
+      "mw": 289.1,
+      "solubility": "low"
+    }
+  },
+  {
+    "id": "mol-004",
+    "name": "SynthMol-Delta",
+    "aliases": [
+      "SMD"
+    ],
+    "target_id": "PROT_B",
+    "is_synthetic": true,
+    "properties": {
+      "mw": 501.7,
+      "solubility": "high"
+    }
+  },
+  {
+    "id": "mol-005",
+    "name": "SynthMol-Epsilon",
+    "aliases": [
+      "SME"
+    ],
+    "target_id": "PROT_C",
+    "is_synthetic": true,
+    "properties": {
+      "mw": 377.9,
+      "solubility": "moderate"
+    }
+  }
+]

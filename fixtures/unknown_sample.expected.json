@@ -1,0 +1,14 @@
+{
+  "status": "has_issues",
+  "record_count": 21,
+  "issues": [
+    {
+      "record_index": 20,
+      "field": "sample_id",
+      "kind": "unknown_sample",
+      "value": "SAMP_UNKNOWN_999",
+      "message": "No sample found for identifier 'SAMP_UNKNOWN_999'"
+    }
+  ],
+  "valid_record_count": 20
+}

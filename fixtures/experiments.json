@@ -1,0 +1,302 @@
+[
+  {
+    "id": "exp-001",
+    "name": "Experiment 01",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-002",
+    "name": "Experiment 02",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 50
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "reagent_preparation",
+    "version": 1
+  },
+  {
+    "id": "exp-003",
+    "name": "Experiment 03",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 6.8,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-004",
+    "name": "Experiment 04",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 37,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "instrument_calibration",
+    "version": 1
+  },
+  {
+    "id": "exp-005",
+    "name": "Experiment 05",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-006",
+    "name": "Experiment 06",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.2,
+      "temperature_c": 25,
+      "concentration_uM": 100
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-007",
+    "name": "Experiment 07",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "sample_degradation",
+    "version": 1
+  },
+  {
+    "id": "exp-008",
+    "name": "Experiment 08",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 30,
+      "concentration_uM": 25
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-009",
+    "name": "Experiment 09",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-010",
+    "name": "Experiment 10",
+    "target_id": "PROT_A",
+    "assay_type": "binding",
+    "conditions": {
+      "ph": 7.0,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-011",
+    "name": "Experiment 11",
+    "target_id": "PROT_B",
+    "assay_type": "viability",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 37,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-012",
+    "name": "Experiment 12",
+    "target_id": "PROT_B",
+    "assay_type": "viability",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 37,
+      "concentration_uM": 50
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "cell_viability_threshold",
+    "version": 1
+  },
+  {
+    "id": "exp-013",
+    "name": "Experiment 13",
+    "target_id": "PROT_B",
+    "assay_type": "viability",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 37,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-014",
+    "name": "Experiment 14",
+    "target_id": "PROT_B",
+    "assay_type": "viability",
+    "conditions": {
+      "ph": 6.8,
+      "temperature_c": 37,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-015",
+    "name": "Experiment 15",
+    "target_id": "PROT_B",
+    "assay_type": "viability",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 37,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "reagent_preparation",
+    "version": 1
+  },
+  {
+    "id": "exp-016",
+    "name": "Experiment 16",
+    "target_id": "PROT_C",
+    "assay_type": "inhibition",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-017",
+    "name": "Experiment 17",
+    "target_id": "PROT_C",
+    "assay_type": "inhibition",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 20
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-018",
+    "name": "Experiment 18",
+    "target_id": "PROT_C",
+    "assay_type": "inhibition",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "failure",
+    "failure_step": "instrument_calibration",
+    "version": 1
+  },
+  {
+    "id": "exp-019",
+    "name": "Experiment 19",
+    "target_id": "PROT_C",
+    "assay_type": "inhibition",
+    "conditions": {
+      "ph": 7.2,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  },
+  {
+    "id": "exp-020",
+    "name": "Experiment 20",
+    "target_id": "PROT_C",
+    "assay_type": "inhibition",
+    "conditions": {
+      "ph": 7.4,
+      "temperature_c": 25,
+      "concentration_uM": 10
+    },
+    "status": "completed",
+    "recorded_outcome": "success",
+    "failure_step": null,
+    "version": 1
+  }
+]

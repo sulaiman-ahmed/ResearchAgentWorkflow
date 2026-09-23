@@ -1,0 +1,18 @@
+{
+  "status": "has_issues",
+  "record_count": 21,
+  "issues": [
+    {
+      "record_index": 20,
+      "field": "sample_id",
+      "kind": "ambiguous_alias",
+      "value": "AMB_ALIAS",
+      "matched_canonical_codes": [
+        "SAMP_025",
+        "SAMP_026"
+      ],
+      "message": "Alias 'AMB_ALIAS' matches multiple samples: SAMP_025, SAMP_026"
+    }
+  ],
+  "valid_record_count": 20
+}
