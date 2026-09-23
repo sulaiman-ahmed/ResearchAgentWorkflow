@@ -4,6 +4,9 @@ from alembic import context
 from sqlalchemy import create_engine, pool
 
 from minibench.db import Base
+from minibench.domain.models import (
+    tables as _models,  # noqa: F401 — registers ORM models on Base.metadata
+)
 from minibench.settings import settings
 
 # this is the Alembic Config object, which provides
