@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Local lab-informatics demo: reviewed CSV imports, historical checks, and cited research via MCP"
 readme = "README.md"
 authors = [
-    { name = "Sulaiman Ahmed", email = "Sulaiman.Ahmed@ibm.com" }
+    { name = "Sulaiman Ahmed", email = "sulaimanahmed08@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
